@@ -1,0 +1,10 @@
+#series
+import pandas as pd
+import numpy as np
+dict={"raghav":"compsci","saba":"electronics","praveen":"electronics","naveed":"comedy"}
+series=pd.Series(dict)
+series.index.name="teachers"
+series.name='teacher (series)'
+print(series.values)
+print(series.empty)
+print(series)
